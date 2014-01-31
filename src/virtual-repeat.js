@@ -352,7 +352,7 @@
             dom.content.css({'padding-top': newValue.start * rowHeight + 'px'});
           }
           dom.content.css({'height': newValue.len * rowHeight + 'px'});
-          if( sticky ){
+          if( false && sticky ){
             dom.viewport[0].scrollTop = dom.viewport[0].clientHeight + dom.viewport[0].scrollHeight;
           }
         }
